@@ -1,2 +1,2 @@
-# AnilistApp
-This is a proect to integrate Api Anilist and make a frontend design
+# Movies App
+This is a project to integrate Api AMDB Api and make a frontend design
