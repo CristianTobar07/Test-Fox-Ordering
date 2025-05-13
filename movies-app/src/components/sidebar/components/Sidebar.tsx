@@ -31,14 +31,6 @@ export const Sidebar: React.FC = () => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
   const sidebarRef = useRef<HTMLDivElement | null>(null);
 
-  const param = useParams();
-
-  useEffect(() => {
-    if (param.page) {
-      menuItems[0].path = `/dashboard/movies/${param.page}`;
-    }
-  }, [param]);
-
   const toggleSidebar = () => {
     setIsOpen(!isOpen);
   };
