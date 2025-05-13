@@ -29,7 +29,7 @@ export const FilterByCategories = () => {
 
     const searchParams = new URLSearchParams(window.location.search);
     if (categorieSelected === category) {
-      searchParams.delete("category", category.key);
+      searchParams.delete("category");
     } else {
       searchParams.set("category", category.key);
     }
